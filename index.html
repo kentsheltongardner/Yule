@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Purgatory</title>
+    <style>
+        #editor {
+            position: fixed;
+            inset: 0;
+            display: flex;
+        }
+        #cells-canvas {
+            background-color: #072551;
+            width: 100px;
+            height: 100vh;
+            min-width: 0;
+            flex-shrink: 0;
+            display: none;
+        }
+        #game-canvas {
+            background-color: black;
+            height: 100vh;
+            flex: 1;
+            min-width: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="editor">
+        <canvas id="cells-canvas""></canvas>
+        <canvas id="game-canvas"></canvas>
+        <img id="colors" src="res/colors.png" style="display: none;">
+        <script type="module" src="dist/index.js"></script>
+    </div>
+</body>
+</html>
+
