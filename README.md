@@ -4,6 +4,10 @@
 
 Deep in the fortress of Yule a profane act has shattered the world, and an ashen snow falls upon the land. Wicht, an elf caught in the lines of the splintering fracture, becomes a new creature. He learns to bridge the gap between worlds of dark and light, changing from elf to goblin and back again as he walks the steps of countless gray thresholds. Wicht explores the fortress of Yule and gives strange new shape to reality as he struggles to learn what tore at its heart.
 
+## Setup
+
+Clone the source into a local folder and open index.html with Live Server or another local development server.
+
 ## Controls
 
 The player controls Wicht the goblin-elf with the arrow keys, and can grab blocks with the space bar. Moving while grabbing a block allows Wicht to drag the block across the ground. In the level tester the player can navigate between levels using the following letter keys:
